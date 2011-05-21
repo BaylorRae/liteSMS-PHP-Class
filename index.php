@@ -43,8 +43,8 @@ class Lite_SMS{
 		
 		public function __construct(){
 			
-			$this->add_carrier("att", "txt.att.net")
-				 ->add_carrier("att", "mms.att.net","mms");
+			$this->addCarrier("att", "txt.att.net")
+			     ->addCarrier("att", "mms.att.net","mms");
 			
 		}
 		
