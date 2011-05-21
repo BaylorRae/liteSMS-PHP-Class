@@ -133,10 +133,4 @@ class Lite_SMS{
 	// add new carrier to instance
 	$new = array('sms'=>'mymobile.com','mms'=>'media.mymobile.com');
 	$sms->addCarrier('MyMobile',$new);
-	
-	echo '<pre>';
-	print_r($sms->carriers);
-	
-	
-
 ?>
